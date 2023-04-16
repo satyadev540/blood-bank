@@ -1,0 +1,263 @@
+body
+{
+    width: auto;
+    height: auto;
+    background-color: bisque;
+    margin: 0;
+}
+.center
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: white;
+}
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #b32134;
+    position:fixed;
+    width: 100%;
+}
+li 
+{
+    float: right;
+    margin: 0px 1px 0px 0px;
+} 
+li a 
+{
+    font-size: 25px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+}
+li a:hover:not(.active a) 
+{
+    background-color: white;
+    color: #b32134;
+}
+.active a
+{
+    background-color:white;
+    color: #b32134;
+}
+.Button
+{
+    background-color: #b32134;
+    border: 2px solid #b32134;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    color: #fff;
+    padding: 15px 32px;
+    margin: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.Button:hover
+{
+    background-color:white;
+    color: black;
+    cursor: pointer;
+    border: 2px solid #b32134;
+}
+.btext
+{
+    text-align: center;
+    top: 20%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+h1
+{
+    font-size: 75px;
+    text-decoration: underline;
+}
+section
+{
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.1);
+} 
+h2
+{
+    color: #b32134;
+}
+main 
+{
+    margin: 20px auto;
+    max-width: 800px;
+}
+.footer 
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    background-color: #b32134;
+    color: #fff;
+    text-align: center; 
+}
+.mbut
+{
+    background-color: #b32134;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.mbut:hover
+{
+    background-color: #fff;
+    color: #b32134;
+    border: 1px solid #b32134;  
+}
+.ma
+{
+    display: block;
+    color: blue;
+    text-decoration: none;
+}
+.ma:hover
+{
+    color: #b32134;
+}
+#login, #registration, #registration2
+{
+    padding-top: 5px;
+}
+form
+{
+    width: 25%;
+    margin-left:580px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+input[type=text], input[type=password], input[type="email"] 
+{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 10px 0px;
+  display: list-item;
+  border: 1px solid #b32134 ;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+input[type=text]:focus, input[type=password]:focus, input[type="email"]:focus select:focus 
+{
+    background-color: #ddd;
+    outline: none;
+}
+input:valid 
+{
+    border: 2px solid green;
+}
+  
+input:invalid 
+{
+    border: 2px solid red;
+}
+.lb
+{
+    background-color: #b32134;
+    border: 2px solid #b32134;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    transition-duration: 0.4s;
+}
+.lb:hover, .cancelbtn:hover
+{
+    background-color:white;
+    color: black;
+    cursor: pointer;
+    border: 2px solid #b32134;
+    opacity: 0.8;
+}
+.cancelbtn
+{
+  width: auto;
+  padding: 10px 18px;
+  color: white;
+  background-color: #b32134;
+  border: 2px solid #b32134;
+  transition-duration: 0.4s;
+}
+select 
+{
+    width: 100%;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    border: 1px solid #b32134 ;
+    box-sizing: border-box;
+}  
+legend 
+{
+    font-size: 30px;
+    background-color:#b32134;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    
+}
+a
+{
+text-decoration: none;
+color: white;
+}
+#message 
+{
+    display: block;
+    position:relative;
+    color: #000;
+    padding: 10px;
+    margin-top: 5px;
+}
+#message p 
+{
+    padding: 0px 35px;
+    font-size: 15px;
+}
+.valid
+{
+    color: green;
+}
+.valid:before 
+{
+    position: relative;
+    left: -35px;
+    content: "✔";
+}
+.invalid
+{
+    color: red;
+}
+.invalid:before 
+{
+    position: relative;
+    left: -35px;
+    content: "✖";
+}
+  
